@@ -51,3 +51,13 @@
   
   
   https://www.youtube.com/watch?v=Y4GbUb2aq1E&t=1528s
+  
+  http://onepointdemo.myfarebox.com/V2/OnePoint.svc?wsdl
+  
+  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://schemas.datacontract.org/2004/07/Mystifly.OnePoint" xmlns:ns2="Mystifly.OnePoint"><SOAP-ENV:Body><ns2:AirLowFareSearch><ns2:rq><ns1:ConversationId>06-16-2022_1920866711</ns1:ConversationId><ns1:OriginDestinationInformations><ns1:OriginDestinationInformation><ns1:DepartureDateTime>2022-10-11T00:00:00</ns1:DepartureDateTime><ns1:DestinationLocationCode>MEX</ns1:DestinationLocationCode><ns1:OriginLocationCode>CUN</ns1:OriginLocationCode></ns1:OriginDestinationInformation><ns1:OriginDestinationInformation><ns1:DepartureDateTime>2022-10-21T00:00:00</ns1:DepartureDateTime><ns1:DestinationLocationCode>CUN</ns1:DestinationLocationCode><ns1:OriginLocationCode>MEX</ns1:OriginLocationCode></ns1:OriginDestinationInformation></ns1:OriginDestinationInformations><ns1:PassengerTypeQuantities><ns1:PassengerTypeQuantity><ns1:Code>ADT</ns1:Code><ns1:Quantity>1</ns1:Quantity></ns1:PassengerTypeQuantity></ns1:PassengerTypeQuantities><ns1:PricingSourceType>All</ns1:PricingSourceType><ns1:RequestOptions>TwoHundred</ns1:RequestOptions><ns1:SessionId>5B67403A-3A3A-46EC-B118-70ECCA192286-1724</ns1:SessionId><ns1:Target>Test</ns1:Target><ns1:TravelPreferences><ns1:AirTripType>Return</ns1:AirTripType><ns1:CabinPreference>Y</ns1:CabinPreference><ns1:MaxStopsQuantity>All</ns1:MaxStopsQuantity></ns1:TravelPreferences></ns2:rq></ns2:AirLowFareSearch></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+  
+  
+  
+  
